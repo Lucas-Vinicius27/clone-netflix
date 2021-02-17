@@ -2,6 +2,8 @@
 :root {
     --red: #E50914;
     --black: #141414;
+    --gray: #AAA;
+    --white: #FFF;
 }
 
 /* Global */
@@ -13,9 +15,36 @@
 }
 
 body {
-    color: var(--red);
     font-family: 'Times New Roman', Times, serif;
     background: var(--black);
 }
 
 /* header */
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container h1 {
+    color: var(--red);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    margin-left: 0.5rem;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+header nav ul li a {
+    color: var(--gray);
+    margin-right: 10px;
+}
+
+header nav ul li a:hover {
+    color: var(--white);
+}
