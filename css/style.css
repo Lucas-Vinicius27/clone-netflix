@@ -99,3 +99,10 @@ main section.filme-principal {
 .filme-principal .container .botoes button.botao i {
     margin-right: 5px;
 }
+
+/* image */
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
