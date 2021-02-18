@@ -73,7 +73,7 @@ main section.filme-principal {
     margin-bottom: 40px;
 }
 
-.filme-principal .container .botoes button {
+.filme-principal .container .botoes button.botao {
     background: rgba(0, 0, 0, 0.5);
     border: none;
     color: var(--white);
@@ -84,7 +84,11 @@ main section.filme-principal {
     transition: 0.3s ease all;
 }
 
-.filme-principal .container .botoes button:hover {
+.filme-principal .container .botoes button.botao:hover {
     background: var(--white);
     color: black;
+}
+
+.filme-principal .container .botoes button.botao i {
+    margin-right: 5px;
 }
