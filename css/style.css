@@ -34,7 +34,7 @@ header .container {
 
 header .container h1 {
     color: var(--red);
-    font-family: 'Arial Black', Times;
+    font-family: 'Arial', Times;
     font-size: 40px;
 }
 
