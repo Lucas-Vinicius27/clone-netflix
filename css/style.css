@@ -20,6 +20,10 @@ body {
     color: var(--white);
 }
 
+.container {
+    margin-left: 1rem;
+}
+
 /* Header */
 header .container {
     display: flex;
@@ -32,7 +36,6 @@ header .container h1 {
     color: var(--red);
     font-family: 'Arial Black', Times;
     font-size: 40px;
-    margin-left: 0.5rem;
 }
 
 header nav ul {
