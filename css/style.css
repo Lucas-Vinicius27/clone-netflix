@@ -20,7 +20,7 @@ body {
     color: var(--white);
 }
 
-/* header */
+/* Header */
 header .container {
     display: flex;
     flex-direction: row;
@@ -48,4 +48,12 @@ header nav ul li a {
 
 header nav ul li a:hover {
     color: var(--white);
+}
+
+/* Main Section filme-principal */
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)100%), url(../image/capa-house.jpg);
+    height: 400px;
+    background-size: cover;
 }
