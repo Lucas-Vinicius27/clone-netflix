@@ -65,6 +65,10 @@ main section.filme-principal {
     align-items: flex-start;
 }
 
+.filme-principal .container {
+    width: 70%;
+}
+
 .filme-principal .container .titulo {
     margin-top: 15%;
     font-size: 40px;
