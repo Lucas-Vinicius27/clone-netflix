@@ -11,6 +11,10 @@
 }
 
 @media screen and (min-width: 1000px) {
+    main section.filme-principal {
+        height: 500px;
+    }
+
     .filme-principal .container .descricao {
         width: 30%;
     }
