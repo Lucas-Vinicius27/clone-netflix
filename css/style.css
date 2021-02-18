@@ -61,3 +61,11 @@ main section.filme-principal {
     justify-content: center;
     align-items: flex-start;
 }
+
+.filme-principal .container .titulo {
+    font-size: 40px;
+}
+
+.filme-principal .container .descricao {
+    margin-bottom: 40px;
+}
