@@ -51,9 +51,13 @@ header nav ul li a:hover {
 }
 
 /* Main Section filme-principal */
-.filme-principal {
+main section.filme-principal {
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)100%), url(../image/capa-house.jpg);
     height: 400px;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
