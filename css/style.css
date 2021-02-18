@@ -57,7 +57,7 @@ header nav ul li a:hover {
 main section.filme-principal {
     font-size: 16px;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)100%), url(../image/capa-house.jpg);
-    height: 400px;
+    height: 450px;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -70,7 +70,7 @@ main section.filme-principal {
 }
 
 .filme-principal .container .titulo {
-    margin-top: 15%;
+    margin-top: 20%;
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -78,6 +78,7 @@ main section.filme-principal {
 .filme-principal .container .descricao {
     margin-top: 10px;
     margin-bottom: 40px;
+    width: 50%;
 }
 
 .filme-principal .container .botoes button.botao {
@@ -98,6 +99,11 @@ main section.filme-principal {
 
 .filme-principal .container .botoes button.botao i {
     margin-right: 5px;
+}
+
+/* Main Section carrosel-filmes */
+main section.carrosel-filmes {
+    margin-top: 0.5rem;
 }
 
 /* image */
